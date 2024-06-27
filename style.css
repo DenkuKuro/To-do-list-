@@ -1,0 +1,209 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,0,0,1) 35%, rgba(96,0,0,1) 100%);
+    text-align: center;
+    font-family: "Teko", sans-serif;
+}
+
+input {
+    font-family: "Teko", sans-serif;
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    font-size: 3rem;
+}
+
+button {
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-family: "Teko", sans-serif;
+}
+
+p {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+.to-do-box {
+    height: 100%;
+    border-radius: 5px;
+    width: 50%;
+    /* border: 3px solid red; */
+    padding: 10px;
+}
+
+.task-add {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 100%;
+}
+
+.tasks-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    height: 100%;
+}
+
+ul li {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.add-task {
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+}
+
+.task-box {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+
+.task {
+    display: flex;
+    /**border: 2px solid white;**/
+    align-items: center;
+    height: 85px;
+}
+
+
+.description {
+    width: 80%;
+    border-radius: 10px;
+    font-size: 2rem;
+    background: black;
+    color: white;
+    border: 2px solid red;
+}
+
+.task-description {
+    display: inline-block;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 2rem;
+    background: transparent;
+    color: white;
+    /* border: 2px solid red; */
+    text-align: left;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+
+.delete {
+    margin: 0;
+    padding: 1%;
+    border-radius: 10px;
+    font-size: 1.25rem;
+    width: 100px;
+}
+
+.check-desc {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    /**border: 2px solid red;**/
+    width: 85%;
+    display: flex;
+    align-items: center;
+    gap: 2%;
+}
+
+.checkbox-wrapper-31:hover .check {
+    stroke-dashoffset: 0;
+  }
+  
+  .checkbox-wrapper-31 {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border: 2px solid red;
+    border-radius: 50%;
+  }
+  
+  .checkbox-wrapper-31 .background {
+    fill: transparent;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+  }
+  
+  .checkbox-wrapper-31 .stroke {
+    fill: none;
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    stroke-dashoffset: 100;
+    stroke-dasharray: 100;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+  }
+  
+  .checkbox-wrapper-31 .check {
+    fill: none;
+    stroke: #fff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2px;
+    stroke-dashoffset: 22;
+    stroke-dasharray: 22;
+    transition: ease all 0.6s;
+    -webkit-transition: ease all 0.6s;
+  }
+  
+  .checkbox-wrapper-31 input[type=checkbox] {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    margin: 0;
+    opacity: 0;
+    -appearance: none;
+    
+  }
+  
+  .checkbox-wrapper-31 input[type=checkbox]:hover {
+    cursor: pointer;
+  }
+  
+  .checkbox-wrapper-31 input[type=checkbox]:checked + svg .background {
+    fill: red;
+  }
+  
+  .checkbox-wrapper-31 input[type=checkbox]:checked + svg .stroke {
+    stroke-dashoffset: 0;
+  }
+  
+  .checkbox-wrapper-31 input[type=checkbox]:checked + svg .check {
+    stroke-dashoffset: 0;
+  }
+  
+  
+  
+
+
+
+
